@@ -64,7 +64,7 @@ body{
 
 .promocoes p{text-align: center}
 
-@media(max-width: 850px){
+@media(max-width: 500px){
     .conteudo div{width: 100%}
     .promocoes div{width: 100%}
 
