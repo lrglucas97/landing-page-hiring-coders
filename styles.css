@@ -18,7 +18,7 @@ body{
 
 .conteudo div{width: 50%; float: left; box-sizing: border-box;}
 
-.desconto img{margin: 0 auto; display: block; padding-bottom: 20px;}
+.desconto img{margin: 0 auto; display: block; padding: 20px;}
 
 .texto{text-align: center; padding-left: 50px; padding-right: 50px; padding-bottom: 10px; padding-top: 50px;}
 
