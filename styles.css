@@ -5,28 +5,25 @@
     width: 100%;
 }
 
-body{
-    margin: 0;
-    background-size: cover;
-}
+body{margin: 0;}
 
-.logoBlackFriday img{max-width: 400px; margin: 0px auto; display: block; padding-top: 20px;}
 
-.conteudo{max-width: 1000px; overflow: hidden; margin: 0 auto;}
 
-.conteudo h1, .conteudo-baixo h1{font-size: xx-large; padding-bottom: 20px;}
+.logoBlackFriday img{max-width: 300px; margin: 0px auto; display: block; padding-bottom: 25px; padding-top: 30px;}
 
-.conteudo p, .conteudo-baixo p, .promocoes p{font-size: 24px; padding-bottom: 20px;}
+.conteudo{overflow: hidden; margin: 0 auto; max-width: 1000px;}
+
+.conteudo h1, .conteudo-baixo h1{font-size: xx-large; }
+
+.conteudo p, .conteudo-baixo p, .promocoes p{font-size: 24px;}
 
 .conteudo div{width: 50%; float: left; box-sizing: border-box;}
 
-.desconto img{margin: 0 auto; display: block; padding-bottom: 40px;}
-
-.texto{text-align: center; padding-left: 50px; padding-right: 50px; padding-bottom: 10px; padding-top: 50px}
+.texto{text-align: center; padding-bottom: 30px; padding-top: 25px;}
 
 .formulario{background: #292929; border: #ff9100 solid 5px; border-radius: 50px; padding: 20px; box-shadow: inset 0px 0px 8px 0px #ff9100;}
 
-.formulario p{color: white; text-align: center; margin: 20 auto 20 auto; padding-left: 50px; padding-right: 50px; padding-bottom: 10px;}
+.formulario p{color: white; text-align: center;}
 
 .formulario label{color: white; text-align: left; margin-left: 15px;}
 
@@ -55,15 +52,22 @@ body{
     background: #ff9100;
 }
 
-.conteudo-baixo{max-width: 900px; overflow: hidden; margin: 0 auto; text-align: center; padding: 20px;}
+.conteudo-baixo, .credito{max-width: 900px; overflow: hidden; margin: 0 auto; text-align: center; padding: 20px;}
 
 .promocoes{overflow: hidden; box-sizing: border-box; max-width: 900px; margin: 0 auto;}
 
 .promocoes div{width: 33%; float: left; box-sizing: border-box;}
 
-.promocoes img{display: block; margin: 0 auto;}
+.promocoes img{
+    display: block;
+    margin: 0 auto;
+    border: #2929290a solid 1px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: inset -2px -3px 3px #292929;
+}
 
-.promocoes p{text-align: center}
+.promocoes p{text-align: center;}
 
 @media(max-width: 500px){
     .conteudo div{width: 100%}
