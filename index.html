@@ -26,16 +26,16 @@
                 <img class="desconto" src="assets/desconto.png" alt="Desconto">
             </div>
             <div class="formulario">
-                <form>
+                <form id="conteudoform">
                     <p>Ficou interessado?<br> Preencha o formulário e ganhe cupons!</p>
                     <label>Seu nome aqui:</label>
-                    <input type="text" name="nome" placeholder="Nome" required>
+                    <input type="text" name="nome" placeholder="Nome" required id="nome">
 
                     <label>Seu melhor e-mail:</label>
-                    <input type="email" name="e-mail" placeholder="E-mail" required>
+                    <input type="email" name="e-mail" placeholder="E-mail" required id="email">
 
                     <label>Seu telefone para contato (opcional):</label>
-                    <input type="tel" name="telefone" placeholder="Telefone">
+                    <input type="tel" name="telefone" placeholder="Telefone" id="telefone">
 
 
                     <input type="submit" name="enviar" value="RECEBER CUPONS">
@@ -71,5 +71,7 @@
         </div>
     </section>
 </body>
+
+<script src="script.js"></script>
 
 </html>
